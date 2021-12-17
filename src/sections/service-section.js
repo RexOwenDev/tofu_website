@@ -12,7 +12,8 @@ import {
 } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import TextFeature from "components/text-feature";
-import ModalVideo from "react-modal-video";
+import dynamic from "next/dynamic";
+const ModalVideo = dynamic(() => import("react-modal-video"));
 import { IoIosPlay } from "react-icons/io";
 
 import ServiceThumb from "./tofu_edit.png";
@@ -30,16 +31,14 @@ const data = {
 			imgSrc: Smart,
 			altText: "Tofu Gods",
 			title: "Tofu Gods",
-			text:
-				"Our TofuHunters Discord is moderated by our TofuGods, who are the 'admins' of the server, responsible for maintaining the 'peace' and overall status of the server.",
+			text: "Our TofuHunters Discord is moderated by our TofuGods, who are the 'admins' of the server, responsible for maintaining the 'peace' and overall status of the server.",
 		},
 		{
 			id: 2,
 			imgSrc: Secure,
 			altText: "Tofu Commanders",
 			title: "Tofu Commanders",
-			text:
-				"The Tofu Commanders are the 'semi-admins' of the server with little to no power when it comes to server moderation. We don't even know why they have the 'Commander' tag. The only perk of having this role is that they have access to 'friends-only' channel.",
+			text: "The Tofu Commanders are the 'semi-admins' of the server with little to no power when it comes to server moderation. We don't even know why they have the 'Commander' tag. The only perk of having this role is that they have access to 'friends-only' channel.",
 		},
 	],
 };
