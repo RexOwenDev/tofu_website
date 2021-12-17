@@ -222,10 +222,10 @@ export default function Package() {
 	};
 
 	return (
-		<section id="pricing" sx={{ variant: "section.pricing" }}>
+		<section id="event" sx={{ variant: "section.pricing" }}>
 			<Container>
 				<SectionHeader
-					slogan="We will do some or most of these games, or not, I don't really know"
+					slogan="We will do some or most of these games, or not, We don't really know."
 					title="Christmas Events"
 				/>
 				<Flex sx={styles.buttonGroup}>

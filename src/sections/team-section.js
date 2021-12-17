@@ -148,7 +148,7 @@ export default function TeamSection() {
 			<Container>
 				<SectionHeader
 					slogan="Our Members"
-					title="We give you... THE TOFU SQUAD"
+					title="We give you... OUR TOFU SQUAD"
 				/>
 				<Grid sx={styles.grid}>
 					{data.map((item) => (

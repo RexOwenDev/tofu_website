@@ -16,7 +16,7 @@ export default function Banner() {
 					<Text as="p" variant="heroSecondary">
 						Check out our website to know more about us!
 					</Text>
-					<Button variant="primary">Lets Get It!</Button>
+					<Button variant="primary">Keep Scrolling Down!</Button>
 				</Box>
 				<Box sx={styles.banner.imageBox}>
 					<Image src={BannerImg} alt="banner" />

@@ -8,7 +8,7 @@ export default [
 		label: "About",
 	},
 	{
-		path: "events",
+		path: "event",
 		label: "Event",
 	},
 	{

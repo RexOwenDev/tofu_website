@@ -15,7 +15,7 @@ const data = [
 		altText: "Former ThunderKuntz",
 		title: "ThunderKuntz",
 		text:
-			"We were known us ThunderKuntz or TKZ, a group of friends who used to compete as team in Tom Clancy's Rainbow Six Siege. ",
+			"We were known as ThunderKuntz or TKZ, a group of friends who used to compete as a team in Tom Clancy's Rainbow Six Siege. ",
 	},
 	{
 		id: 2,
@@ -23,7 +23,7 @@ const data = [
 		altText: "Different Games",
 		title: "Games",
 		text:
-			"We play a variety of games in our discord server. The most commonly played games are Dota 2, Valorant, Rainbow Six Siege, Pummel Party, New World, Minecraft and many more!",
+			"We play a variety of games in our discord server. Our most commonly played games are Dota 2, Valorant, Rainbow Six Siege, Pummel Party, New World, Minecraft and many more!",
 	},
 	{
 		id: 3,
@@ -31,7 +31,7 @@ const data = [
 		altText: "Management",
 		title: "Management",
 		text:
-			"TofuHunters have some sort of a management or hierarchy system in its discord. They have 'abusive' admins. Jk, or is it?",
+			"We have some sort of a management or hierarchy system in our discord. We have 'abusive' admins. We're just kidding... or are we?",
 	},
 	{
 		id: 4,
@@ -45,9 +45,9 @@ const data = [
 
 export default function KeyFeature() {
 	return (
-		<section id="feature" sx={{ variant: "section.keyFeature" }}>
+		<section id="about" sx={{ variant: "section.keyFeature" }}>
 			<Container>
-				<SectionHeader slogan="About Us" title="Here's What We Do" />
+				<SectionHeader slogan="About Us" title="What We Do" />
 
 				<Grid sx={styles.grid}>
 					{data.map((item) => (

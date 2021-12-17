@@ -7,12 +7,12 @@ import shapePattern from "assets/shape-pattern2.png";
 
 const data = {
 	subTitle: "TOFUHUNTERS",
-	title: "Group of Individuals with a Common Goal... Have Fun & Chill!",
+	title: "A Group of Individuals with a Common Goal... NOTHING.",
 };
 
 export default function CoreFeature() {
 	return (
-		<section sx={{ variant: "section.coreFeature" }}>
+		<section id="about" sx={{ variant: "section.coreFeature" }}>
 			<Container sx={styles.containerBox}>
 				<Box sx={styles.contentBox}>
 					<TextFeature

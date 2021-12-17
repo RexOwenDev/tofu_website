@@ -94,15 +94,9 @@ const data = [
 		avatar: Member9,
 		name: "Varla",
 	},
+
 	{
 		id: 11,
-		description:
-			"First of all Merry Christmas and a Happy New Year! Iiklian ko na lang di ko na pahahabain. Gusto ko lang sabihin sa lahat ng makakabasa nito na kung same tayo ng sitwasyon na nahihirapan kang mag sabi ng mahal mo yung magulang mo o kahit sa sino mang parte ng pamilya. Gusto ko lang ipaalala sainyo na hindi naten alam kung kelan darating ang oras naten at di rin naten alam kung kelan darating ang oras nila. Gusto ko lang sabihin na pilitin nyong iparamdam at ipakita pagmamahal nyo sa mga magulang nyo bago pa maging huli ang lahat. Yun lang naman enjoy lang sa buhay. Gawin nyo lahat ng gusto nyong gawin hanggat alam nyong nasa tama kayo. Thank you sa mga memories  at sa mga mabubuo pang memories naten TofuHunters. Godbless you all. Love na love ko kayo! May God always be with us.",
-		avatar: Member17,
-		name: "Kerby",
-	},
-	{
-		id: 12,
 
 		description:
 			"Salamat sa tkz and sa tofu, this is a place na comfortable lahat",
@@ -110,24 +104,45 @@ const data = [
 		name: "Ray",
 	},
 	{
-		id: 13,
+		id: 12,
 		description:
 			"This pandemic brought us closer together, if you're going through something, know that we are a family here and we can listen and help each other. Here's to more memories with and without the pandemic ^^",
 		avatar: Member7,
 		name: "Kappa",
 	},
 	{
-		id: 14,
+		id: 13,
 		description:
 			"I am thankful for the friendship and the good times shared during the past two years. Glad I found people with like minds and ones that understand and accepts me for who I am. Merry Christmas and happy holidays! Mas madami pang katangahan next year. Amen.",
 		avatar: Member19,
 		name: "Keanu",
 	},
 	{
-		id: 15,
+		id: 14,
 		description: "Prepare - Grind - Rest - Repeat. We got this shit.",
 		avatar: Member4,
 		name: "DJ",
+	},
+	{
+		id: 15,
+		description:
+			"First of all Merry Christmas and a Happy New Year! Iiklian ko na lang di ko na pahahabain. Gusto ko lang sabihin sa lahat ng makakabasa nito na kung same tayo ng sitwasyon na nahihirapan kang mag sabi ng mahal mo yung magulang mo o kahit sa sino mang parte ng pamilya.",
+		avatar: Member17,
+		name: "Kerby",
+	},
+	{
+		id: 16,
+		description:
+			"Gusto ko lang ipaalala sainyo na hindi naten alam kung kelan darating ang oras naten at di rin naten alam kung kelan darating ang oras nila. Gusto ko lang sabihin na pilitin nyong iparamdam at ipakita pagmamahal nyo sa mga magulang nyo bago pa maging huli ang lahat.",
+		avatar: Member17,
+		name: "Kerby",
+	},
+	{
+		id: 17,
+		description:
+			"Yun lang naman enjoy lang sa buhay. Gawin nyo lahat ng gusto nyong gawin hanggat alam nyong nasa tama kayo. Thank you sa mga memories  at sa mga mabubuo pang memories naten TofuHunters. Godbless you all. Love na love ko kayo! May God always be with us.",
+		avatar: Member17,
+		name: "Kerby",
 	},
 ];
 
@@ -179,9 +194,9 @@ const carouselParams = {
 
 export default function TestimonialCard() {
 	return (
-		<section id="testemonial" sx={{ variant: "section.testemonial" }}>
+		<section id="testimonial" sx={{ variant: "section.testimonial" }}>
 			<Container css={{ textAlign: "center" }}>
-				<SectionHeader slogan="Messages" title="TofuSquad's Messages" />
+				<SectionHeader slogan="Messages" title="TofuSquad Messages" />
 			</Container>
 			<Box sx={styles.carouselWrapper}>
 				<Carousel {...carouselParams}>
@@ -192,7 +207,7 @@ export default function TestimonialCard() {
 								<div className="image">
 									<Image src={item.avatar} alt="TofuMember Image" />
 								</div>
-								<div className="reviewer=info">
+								<div className="reviewer-info">
 									<Heading as="h4" sx={styles.heading}>
 										{item.name}
 									</Heading>
